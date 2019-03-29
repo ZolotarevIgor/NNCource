@@ -104,20 +104,8 @@ def max_err(nn, train, err):
     c = np.zeros((32,32))
     for i in range(1000):
         c += confusion_matrix(target.argmax(axis=1), nn.predict(train + np.random.normal(0, err, train.shape)).argmax(axis=1))
-    return 1-np.max(np.diag(c))/1000.0
+    return 1-np.min(np.diag(c))/1000.0
 ```
-
-
-```python
-max_err(clf, train, 0.2)
-```
-
-
-
-
-    0.0010000000000000009
-
-
 
 
 ```python
@@ -205,10 +193,10 @@ plt.plot(terr, clf2err)
 plt.grid()
 plt.xlabel('Уровень шума')
 plt.ylabel('Ошибка')
-plt.legend(['Двухслойный персептрон]','Трехслойный персептрон'])
+plt.legend(['Двухслойный персептрон','Трехслойный персептрон'])
 plt.show()
 ```
 
 
-![png](Lab4_files/Lab4_18_0.png)
+![png](Lab4_files/Lab4_17_0.png)
 
