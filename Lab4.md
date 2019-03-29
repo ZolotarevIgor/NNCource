@@ -205,21 +205,10 @@ plt.plot(terr, clf2err)
 plt.grid()
 plt.xlabel('Уровень шума')
 plt.ylabel('Ошибка')
-plt.legend('A','B')
+plt.legend(['Двухслойный персептрон]','Трехслойный персептрон'])
 plt.show()
 ```
 
-    c:\users\yngvar\appdata\local\programs\python\python36\lib\site-packages\matplotlib\legend.py:794: UserWarning: Legend does not support 'A' instances.
-    A proxy artist may be used instead.
-    See: http://matplotlib.org/users/legend_guide.html#creating-artists-specifically-for-adding-to-the-legend-aka-proxy-artists
-      "aka-proxy-artists".format(orig_handle)
-    
 
+![png](Lab4_files/Lab4_18_0.png)
 
-![png](Lab4_files/Lab4_18_1.png)
-
-
-
-```python
-
-```
