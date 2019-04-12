@@ -1,22 +1,5 @@
 
-<img src="https://latex.codecogs.com/gif.latex?$y_{k}(n) = \frac{D}{1-DF}[x_{j}(n)]$" /> 
-
-<img src="https://latex.codecogs.com/gif.latex?$y_{k}(n) = \frac{w}{1-wz^{-1}}[x_{j}(n)]$" />  - по определению D и F
-
-<img src="https://latex.codecogs.com/gif.latex?$y_{k}(n) = w(1-wz^{-1})^{-1}[x_{j}(n)]$" /> 
-
-<img src="https://latex.codecogs.com/gif.latex?y_{k}(n) = w\sum C_{-1}^{l}(-wz^{-1})^{l}[x_{j}(n)]" />  - раскладываем в бином Ньютона
-
-<img src="https://latex.codecogs.com/gif.latex?y_{k}(n) = w\sum_{l=0}^{n} (-1)^{l}\frac{(1+l-1)!}{l!0!}(-wz^{-1})^{l}[x_{j}(n)]" />  - раскладываем биноминальный 
-коэффициент по формуле для отрицательного показателя
-
-<img src="https://latex.codecogs.com/gif.latex?y_{k}(n) = w\sum_{l=0}^{n} (-1)^{2l}\frac{l!}{l!}(wz^{-1})^{l}[x_{j}(n)]" /> 
-
-<img src="https://latex.codecogs.com/gif.latex?y_{k}(n) = w\sum_{l=0}^{n}w^lz^{-l}[x_{j}(n)]" /> 
-
-<img src="https://latex.codecogs.com/gif.latex?y_{k}(n) = \sum_{l=0}^{n}w^{l+1}z^{-l}[x_{j}(n)]" />  - раскрываем z^-1 по определению
-
-<img src="https://latex.codecogs.com/gif.latex?y_{k}(n) = \sum_{l=0}^{n}w^{l+1}x_{j}(n-l)$" /> 
+![png](Lab5_files/Lab5_0.png)
 
 
 
