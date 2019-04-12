@@ -1,5 +1,5 @@
 
-![png](Lab5_files/Lab5_0.png)
+![png](Lab5_files/Lab5_0.PNG)
 
 
 
